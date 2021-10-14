@@ -170,9 +170,12 @@ a {
 
 }
 
+.section.all-features {
+  padding-bottom: 0px;
+}
+
 .features {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .features .f-items + .f-items {
@@ -251,6 +254,15 @@ a {
 
 .footer .email, .footer .phone {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .email:hover,
+.footer .email:focus {
+  color: var(--hover-link-color);
+}
+.footer .phone:hover,
+.footer .phone:focus {
+  color: var(--hover-link-color);
 }
 
 .container.footer {
