@@ -245,8 +245,8 @@ a {
 
 
 .footer {
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--background-footer-color);
   color: var(--accent-color);
   --font-heading-color: var(--accent-color);
